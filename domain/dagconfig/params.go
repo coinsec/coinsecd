@@ -211,8 +211,8 @@ var MainnetParams = Params{
 	K:           defaultGHOSTDAGK,
 	Name:        "coinsec-mainnet",
 	Net:         appmessage.Mainnet,
-	RPCPort:     "38138",
-	DefaultPort: "38139",
+	RPCPort:     "17110",
+	DefaultPort: "17111",
 	DNSSeeds: []string{},
 
 	// DAG parameters
@@ -276,8 +276,8 @@ var TestnetParams = Params{
 	K:           defaultGHOSTDAGK,
 	Name:        "coinsec-testnet-10",
 	Net:         appmessage.Testnet,
-	RPCPort:     "16210",
-	DefaultPort: "16211",
+	RPCPort:     "17210",
+	DefaultPort: "17211",
 	DNSSeeds: []string{},
 
 	// DAG parameters
@@ -344,8 +344,8 @@ var SimnetParams = Params{
 	K:           defaultGHOSTDAGK,
 	Name:        "coinsec-simnet",
 	Net:         appmessage.Simnet,
-	RPCPort:     "16510",
-	DefaultPort: "16511",
+	RPCPort:     "17510",
+	DefaultPort: "17511",
 	DNSSeeds:    []string{}, // NOTE: There must NOT be any seeds.
 
 	// DAG parameters
@@ -404,8 +404,8 @@ var DevnetParams = Params{
 	K:           defaultGHOSTDAGK,
 	Name:        "coinsec-devnet",
 	Net:         appmessage.Devnet,
-	RPCPort:     "16610",
-	DefaultPort: "16611",
+	RPCPort:     "17610",
+	DefaultPort: "17611",
 	DNSSeeds:    []string{}, // NOTE: There must NOT be any seeds.
 
 	// DAG parameters

@@ -13,7 +13,7 @@ const (
 	MaxScriptPublicKeyVersion uint16 = 0
 
 	// SompiPerCoinsec is the number of sompi in one coinsec (1 SEC).
-	SompiPerCoinsec = 1_000_000_000
+	SompiPerCoinsec = 10_000_000
 
 	// MaxSompi is the maximum transaction amount allowed in sompi.
 	MaxSompi = uint64(1_000_000_000 * SompiPerCoinsec)
@@ -38,7 +38,4 @@ const (
 	// UnacceptedDAAScore is used to for UTXOEntries that were created by transactions in the mempool, or otherwise
 	// not-yet-accepted transactions.
 	UnacceptedDAAScore = math.MaxUint64
-
-	// First block value
-	DefaultPreDeflationaryPhaseCurve = 600_000_000 * SompiPerCoinsec
 )
