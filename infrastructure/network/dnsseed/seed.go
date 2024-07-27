@@ -54,7 +54,6 @@ func SeedFromDNS(dagParams *dagconfig.Params, customSeed string, includeAllSubne
 	for _, dnsseed := range dnsSeeds {
 		host := dnsseed
 
-		/*
 		if !includeAllSubnetworks {
 			if subnetworkID != nil {
 				host = fmt.Sprintf("%c%s.%s", SubnetworkIDPrefixChar, subnetworkID, host)
@@ -62,7 +61,6 @@ func SeedFromDNS(dagParams *dagconfig.Params, customSeed string, includeAllSubne
 				host = fmt.Sprintf("%c.%s", SubnetworkIDPrefixChar, host)
 			}
 		}
-		*/
 
 		spawn("SeedFromDNS", func() {
 			randSource := rand.New(rand.NewSource(time.Now().UnixNano()))
