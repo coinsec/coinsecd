@@ -279,7 +279,8 @@ var TestnetParams = Params{
 	RPCPort:     "17210",
 	DefaultPort: "17211",
 	DNSSeeds: []string{
-		"testnet-dns.coinsec.network",
+		"159.69.192.81:17211",
+		"95.216.144.139:17211",
 	},
 
 	// DAG parameters
