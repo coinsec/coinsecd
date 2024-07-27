@@ -38,4 +38,7 @@ const (
 	// UnacceptedDAAScore is used to for UTXOEntries that were created by transactions in the mempool, or otherwise
 	// not-yet-accepted transactions.
 	UnacceptedDAAScore = math.MaxUint64
+
+	//
+	DefaultPreDeflationaryPhaseCurve = 250_000 * SompiPerCoinsec
 )
