@@ -1,6 +1,7 @@
 package coinbasemanager
 
 import (
+	"fmt"
 	"strconv"
 	"testing"
 
