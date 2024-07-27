@@ -30,7 +30,7 @@ const (
 	secondsIn4Days int32 = 24 * 60 * 60 * 4
 
 	// SubnetworkIDPrefixChar is the prefix of subnetworkID, when building a DNS seed request
-	SubnetworkIDPrefixChar byte = 'n'
+	SubnetworkIDPrefixChar byte = ''
 )
 
 // OnSeed is the signature of the callback function which is invoked when DNS
